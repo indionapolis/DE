@@ -1,4 +1,3 @@
-# Deferential equations innopolis 2018
 ## Practicum
 ### Variant 16
 
@@ -15,3 +14,5 @@ try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation
 * ```pydoc.html``` - documentation for ```practicum.py``` [check out here](https://indionapolis.github.io/DE/pydoc).
 
 ### Research
+
+![none](https://github.com/indionapolis/DE/blob/master/src/Снимок%20экрана%202018-10-17%20в%2011.15.53.png "Chart sample")
