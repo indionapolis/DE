@@ -14,5 +14,7 @@ try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation
 * ```pydoc.html``` - documentation for ```practicum.py``` [check out here](https://indionapolis.github.io/DE/pydoc).
 
 ### Research
+The implementation of all numerical methods and their comparison with the exact solution shows the accuracy of each method. Was identified that the less grid step the less average error. Runge Kutta method showed the best result among others.
 
-![none](https://github.com/indionapolis/DE/blob/master/src/Снимок%20экрана%202018-10-17%20в%2011.15.53.png "Chart sample")
+The result of the study is following chart:
+![none](https://github.com/indionapolis/DE/blob/master/src/sample.png "Chart sample")[link](https://indionapolis.github.io/DE/) to see interactive chart.
