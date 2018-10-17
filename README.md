@@ -1,6 +1,6 @@
-# Practicum
-### Deferential equations innopolis 2018
-#### Variant 16
+# Deferential equations innopolis 2018
+## Practicum
+### Variant 16
 
 try [link](https://indionapolis.github.io/DE/) to see interactive chart.
 
