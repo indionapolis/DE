@@ -186,7 +186,7 @@ if __name__ == '__main__':
     data = euler_trace + improved_euler_trace + runge_kutta_trace + exact_trace
 
     layout = dict(sliders=slider,
-                  title="<b>Practicum: y' = 2xy - 5 + x^2</b>",
+                  title="<b>Practicum: y' = 2xy - 5 + x<sup>2</sup></b>",
                   titlefont=dict(
                       size=20,
                       color='#969696',
