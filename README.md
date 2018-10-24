@@ -17,4 +17,5 @@ try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation
 The implementation of all numerical methods and their comparison with the exact solution shows the accuracy of each method. Was identified that the less grid step the less average error. Runge Kutta method showed the best result among others.
 
 The result of the study is following chart:
-![none](https://github.com/indionapolis/DE/blob/master/src/sample.png "Chart sample")[link](https://indionapolis.github.io/DE/) to see interactive chart.
+
+[![none](https://github.com/indionapolis/DE/blob/master/src/sample.png "clik me!")](https://indionapolis.github.io/DE/)
