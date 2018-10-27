@@ -1,9 +1,9 @@
 ## Practicum
 ### Variant 16
 
-initial problem: <a href="https://www.codecogs.com/eqnedit.php?latex=y'=2xy&space;&plus;&space;5-x^2,&space;x_0&space;=&space;0,&space;y_0&space;=&space;1,&space;X&space;=&space;3." target="_blank"><img src="https://latex.codecogs.com/gif.latex?y'=2xy&space;&plus;&space;5-x^2,&space;x_0&space;=&space;0,&space;y_0&space;=&space;1,&space;X&space;=&space;3." title="y'=2xy + 5-x^2, x_0 = 0, y_0 = 1, X = 3." /></a>
+initial problem: <br/><a href="https://www.codecogs.com/eqnedit.php?latex=y'=2xy&space;&plus;&space;5-x^2,&space;x_0&space;=&space;0,&space;y_0&space;=&space;1,&space;X&space;=&space;3." target="_blank"><img src="https://latex.codecogs.com/gif.latex?y'=2xy&space;&plus;&space;5-x^2,&space;x_0&space;=&space;0,&space;y_0&space;=&space;1,&space;X&space;=&space;3." title="y'=2xy + 5-x^2, x_0 = 0, y_0 = 1, X = 3." /></a>
 
-exact solution: <a href="https://www.codecogs.com/eqnedit.php?latex=y&space;=&space;\frac{1}{4}\left&space;(&space;9\sqrt{\pi&space;}e^{x^{2}}\text{erf}(x)&plus;&space;4e^{x^{2}}&plus;2x\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y&space;=&space;\frac{1}{4}\left&space;(&space;9\sqrt{\pi&space;}e^{x^{2}}\text{erf}(x)&plus;&space;4e^{x^{2}}&plus;2x\right&space;)" title="y = \frac{1}{4}\left ( 9\sqrt{\pi }e^{x^{2}}\text{erf}(x)+ 4e^{x^{2}}+2x\right )" /></a>
+exact solution: <br/><a href="https://www.codecogs.com/eqnedit.php?latex=y&space;=&space;\frac{1}{4}\left&space;(&space;9\sqrt{\pi&space;}e^{x^{2}}\text{erf}(x)&plus;&space;4e^{x^{2}}&plus;2x\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y&space;=&space;\frac{1}{4}\left&space;(&space;9\sqrt{\pi&space;}e^{x^{2}}\text{erf}(x)&plus;&space;4e^{x^{2}}&plus;2x\right&space;)" title="y = \frac{1}{4}\left ( 9\sqrt{\pi }e^{x^{2}}\text{erf}(x)+ 4e^{x^{2}}+2x\right )" /></a>
 
 try [link](https://indionapolis.github.io/DE/) to see interactive chart.
 
