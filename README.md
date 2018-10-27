@@ -3,6 +3,11 @@
 
 initial problem: $y'=2xy + 5-x^2, x_0 = 0, y_0 = 1, X = 3.$
 
+\begin{align*}
+x^2 + y^2 &= 1 \\
+y &= \sqrt{1 - x^2}
+\end{align*}
+
 try [link](https://indionapolis.github.io/DE/) to see interactive chart.
 
 try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation
