@@ -1,7 +1,7 @@
 ## Practicum
 ### Variant 16
 
-initial problem: y'(x) = f(x, y) = -x^2 + 2 x y(x) + 5, x0 = 0, y0 = 1, X = 3
+initial problem: $y'=2xy + 5-x^2, x_0 = 0, y_0 = 1, X = 3.$
 
 try [link](https://indionapolis.github.io/DE/) to see interactive chart.
 
