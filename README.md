@@ -1,6 +1,8 @@
 ## Practicum
 ### Variant 16
 
+initial problem: \\[ y' = 2yx + 5 - x^2 \\] x0 = 0, y0 = 1, X = 3
+
 try [link](https://indionapolis.github.io/DE/) to see interactive chart.
 
 try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation
