@@ -1,12 +1,7 @@
 ## Practicum
 ### Variant 16
 
-initial problem: <a href="https://www.codecogs.com/eqnedit.php?latex=y'=2xy&space;&plus;&space;5-x^2,&space;x_0&space;=&space;0,&space;y_0&space;=&space;1,&space;X&space;=&space;3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y'=2xy&space;&plus;&space;5-x^2,&space;x_0&space;=&space;0,&space;y_0&space;=&space;1,&space;X&space;=&space;3" title="y'=2xy + 5-x^2, x_0 = 0, y_0 = 1, X = 3" /></a>
-
-\begin{align*}
-x^2 + y^2 &= 1 \\
-y &= \sqrt{1 - x^2}
-\end{align*}
+initial problem: <a href="https://www.codecogs.com/eqnedit.php?latex=y'=2xy&space;&plus;&space;5-x^2,&space;x_0&space;=&space;0,&space;y_0&space;=&space;1,&space;X&space;=&space;3." target="_blank"><img src="https://latex.codecogs.com/gif.latex?y'=2xy&space;&plus;&space;5-x^2,&space;x_0&space;=&space;0,&space;y_0&space;=&space;1,&space;X&space;=&space;3." title="y'=2xy + 5-x^2, x_0 = 0, y_0 = 1, X = 3." /></a>
 
 try [link](https://indionapolis.github.io/DE/) to see interactive chart.
 
