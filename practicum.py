@@ -3,7 +3,7 @@ Programming Assignment 1
 Made by Pavel Nikulin
 """
 from math import pow, e, pi, sqrt, erf
-
+from plotly import tools
 import plotly.offline as py
 import numpy as np
 
@@ -97,6 +97,7 @@ if __name__ == '__main__':
     """initial function"""
     f = lambda x, y: 2 * y * x + 5 - pow(x, 2)
 
+    """array of grid steps"""
     grid_steps = np.array([1] + [0.1 / (2 ** i) for i in range(8)])
 
     """one graph for one value set is one trace object (dict)"""
@@ -104,6 +105,10 @@ if __name__ == '__main__':
     euler_trace = []
     improved_euler_trace = []
     runge_kutta_trace = []
+
+    euler_trace_error = []
+    improved_euler_trace_error = []
+    runge_kutta_trace_error = []
 
     for step in grid_steps:
         """for each grid step calculate value set and corresponding errors"""
@@ -133,6 +138,13 @@ if __name__ == '__main__':
             x=x_values,
             y=y_e_values,))
 
+        euler_trace_error.append(dict(
+            visible=False,
+            line=dict(color='#B8E334', width=3),
+            name='Euler method Error',
+            x=x_values,
+            y=[round(abs(y_ex_values[i] - y_e_values[i]), 5) for i in range(len(y_ex_values))]))
+
         improved_euler_trace.append(dict(
             visible=False,
             line=dict(color='#BB33FF', width=3),
@@ -140,6 +152,13 @@ if __name__ == '__main__':
             text=['Error: {}'.format(round(abs(y_ex_values[i] - y_ie_values[i]), 5)) for i in range(len(y_ex_values))],
             x=x_values,
             y=y_ie_values, ))
+
+        improved_euler_trace_error.append(dict(
+            visible=False,
+            line=dict(color='#E4DB73', width=3),
+            name='Improved Euler method Error',
+            x=x_values,
+            y=[round(abs(y_ex_values[i] - y_ie_values[i]), 5) for i in range(len(y_ex_values))]))
 
         runge_kutta_trace.append(dict(
             visible=False,
@@ -149,11 +168,22 @@ if __name__ == '__main__':
             x=x_values,
             y=y_rk_values, ))
 
+        runge_kutta_trace_error.append(dict(
+            visible=False,
+            line=dict(color='#E6951E', width=3),
+            name='Runge Kutta method Error',
+            x=x_values,
+            y=[round(abs(y_ex_values[i] - y_rk_values[i]), 5) for i in range(len(y_ex_values))]))
+
     """initial graphs"""
     exact_trace[0]['visible'] = True
     euler_trace[0]['visible'] = True
     improved_euler_trace[0]['visible'] = True
     runge_kutta_trace[0]['visible'] = True
+
+    euler_trace_error[0]['visible'] = True
+    improved_euler_trace_error[0]['visible'] = True
+    runge_kutta_trace_error[0]['visible'] = True
 
     """stiles and slider"""
     steps = []
@@ -184,6 +214,7 @@ if __name__ == '__main__':
     )]
 
     data = euler_trace + improved_euler_trace + runge_kutta_trace + exact_trace
+    error_data = euler_trace_error + improved_euler_trace_error + runge_kutta_trace_error
 
     layout = dict(sliders=slider,
                   title="<b>Practicum: y' = 2xy - 5 + x<sup>2</sup></b>",
@@ -193,12 +224,22 @@ if __name__ == '__main__':
                   ),
                   plot_bgcolor='#424242',
                   paper_bgcolor='#2E2E2E',
-                  xaxis=dict(
+                  xaxis1=dict(
                       color='#7f7f7f',
                       gridwidth=1,
                       gridcolor='#7f7f7f',
                   ),
-                  yaxis=dict(
+                  yaxis1=dict(
+                      color='#7f7f7f',
+                      gridwidth=1,
+                      gridcolor='#7f7f7f',
+                  ),
+                  xaxis2=dict(
+                      color='#7f7f7f',
+                      gridwidth=1,
+                      gridcolor='#7f7f7f',
+                  ),
+                  yaxis2=dict(
                       color='#7f7f7f',
                       gridwidth=1,
                       gridcolor='#7f7f7f',
@@ -209,9 +250,18 @@ if __name__ == '__main__':
                           size=12,
                           color='#7f7f7f',
                       ),
-                  ),
+                      bgcolor='#424242',
+                  )
                   )
 
-    fig = dict(data=data, layout=layout)
+    """final composition"""
+    fig = tools.make_subplots(rows=2, cols=1, subplot_titles=('', ''), vertical_spacing=0.04)
+
+    for trace in data:
+        fig.append_trace(trace, 1, 1)
+    for trace in error_data:
+        fig.append_trace(trace, 2, 1)
+
+    fig['layout'].update(layout)
 
     py.plot(fig, filename='practicum')
