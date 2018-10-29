@@ -27,9 +27,9 @@ try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation
 
 ### Aims:
 
-* Implement various numerical methods to solve first order O.D.E
-* Realize the exact solution of the initial value problem
-* Compare approximation errors of numerical methods and exact solution
+1. Implement various numerical methods to solve first order O.D.E
+2. Realize the exact solution of the initial value problem
+3. Compare approximation errors of numerical methods and exact solution
 
 ### Observation:
 
