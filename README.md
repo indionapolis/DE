@@ -17,6 +17,12 @@ try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation
 * ```practicum.py``` - python implementation of numeric methods and chart construction using ```plotly```.
 * ```pydoc.html``` - documentation for ```practicum.py``` [check out here](https://indionapolis.github.io/DE/pydoc).
 
+### Technology stack:
+
+* ```python```
+* ```html```
+* ```javascript```
+
 ### Research
 The implementation of all numerical methods and their comparison with the exact solution shows the accuracy of each method. Was identified that the less grid step the less average error. Runge Kutta method showed the best result among others.
 
