@@ -7,7 +7,7 @@ exact solution: <br/><a href="https://www.codecogs.com/eqnedit.php?latex=y&space
 
 try [link](https://indionapolis.github.io/DE/) to see interactive chart.
 
-try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation
+try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation.
 
 ## Report
 
@@ -27,9 +27,9 @@ try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation
 
 ### Aims:
 
-1. Implement various numerical methods to solve first order O.D.E
-2. Realize the exact solution of the initial value problem
-3. Compare approximation errors of numerical methods and exact solution
+1. Implement various numerical methods to solve first order O.D.E.
+2. Realize the exact solution of the initial value problem.
+3. Compare approximation errors of numerical methods and exact solution.
 
 ### Observation:
 
