@@ -11,20 +11,32 @@ try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation
 
 ## Report
 
-### In this repository:
-
-* ```index.html``` - chart representation [check out here](https://indionapolis.github.io/DE/).
-* ```practicum.py``` - python implementation of numeric methods and chart construction using ```plotly```.
-* ```pydoc.html``` - documentation for ```practicum.py``` [check out here](https://indionapolis.github.io/DE/pydoc).
-
 ### Technology stack:
 
 * ```python```
 * ```html```
 * ```javascript```
 
-### Research
+### In this repository:
+
+* ```index.html``` - chart representation [check out here](https://indionapolis.github.io/DE/).
+* ```practicum.py``` - python implementation of numeric methods and chart construction using ```plotly```.
+* ```pydoc.html``` - documentation for ```practicum.py``` [check out here](https://indionapolis.github.io/DE/pydoc).
+
+## Research
+
+### Aims:
+
+* Implement various numerical methods to solve first order O.D.E
+* Realize the exact solution of the initial value problem
+* Compare approximation errors of numerical methods and exact solution
+
+### Observation:
+
 The implementation of all numerical methods and their comparison with the exact solution shows the accuracy of each method. Was identified that the less grid step the less average error. Runge Kutta method showed the best result among others.
+
+
+### Result:
 
 The result of the study is following chart:
 
