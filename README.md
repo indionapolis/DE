@@ -40,4 +40,4 @@ The implementation of all numerical methods and their comparison with the exact 
 
 The result of the study is following chart:
 
-[![none](https://github.com/indionapolis/DE/blob/master/src/sample.png "clik me!")](https://indionapolis.github.io/DE/)
+[![none](https://github.com/indionapolis/DE/blob/master/sample.png "clik me!")](https://indionapolis.github.io/DE/)
