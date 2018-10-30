@@ -25,7 +25,7 @@ try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation.
 
 ### Use case
 
-run ```practicum.py x_0 y_0 X``` where ```x_0 y_0 X``` is initial values. As the result of this run you will get html document with graphical representation of solution for IVP.
+Run ```python3 practicum.py x_0 y_0 X``` where ```x_0 y_0 X``` is initial values. As the result of this run you will get html document with graphical representation of solution for IVP.
 
 ## Research
 
@@ -37,7 +37,7 @@ run ```practicum.py x_0 y_0 X``` where ```x_0 y_0 X``` is initial values. As the
 
 ### Observation:
 
-The implementation of all numerical methods and their comparison with the exact solution shows the accuracy of each method. Was identified that the less grid step the less average error. Runge Kutta method showed the best result among others.
+Most realistic systems do not have analytical solutions so that a numerical procedure must be used. The implementation of all numerical methods and their comparison with the exact solution shows the accuracy of each method. Was identified that the less grid step the less average error. Runge Kutta method showed the best result among others.
 
 
 ### Result:

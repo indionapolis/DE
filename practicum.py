@@ -3,6 +3,7 @@ Programming Assignment 1
 Made by Pavel Nikulin
 """
 from math import pow, e, pi, sqrt, erf
+from sys import argv
 from plotly import tools
 import plotly.offline as py
 import numpy as np
@@ -93,6 +94,10 @@ if __name__ == '__main__':
     x0 = 0
     y0 = 1
     X = 3
+    if len(argv) == 4:
+        x0 = float(argv[1])
+        y0 = float(argv[2])
+        X = float(argv[3])
 
     """initial function"""
     f = lambda x, y: 2 * y * x + 5 - pow(x, 2)
