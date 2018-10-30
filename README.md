@@ -25,7 +25,7 @@ try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation.
 
 ### Use case
 
-Run ```python3 practicum.py x_0 y_0 X``` where ```x_0 y_0 X``` is initial values. As the result of this run you will get html document with graphical representation of solution for IVP.
+Run ```python3 practicum.py x_0 y_0 X``` where ```x_0 y_0 X``` are initial values. As the result of the run you will get html document with graphical representation of solution for the IVP.
 
 ## Research
 
