@@ -23,6 +23,10 @@ try [link](https://indionapolis.github.io/DE/pydoc) to see python documentation.
 * ```practicum.py``` - python implementation of numeric methods and chart construction using ```plotly```.
 * ```pydoc.html``` - documentation for ```practicum.py``` [check out here](https://indionapolis.github.io/DE/pydoc).
 
+### Use case
+
+run ```practicum.py x_0 y_0 X``` where ```x_0 y_0 X``` is initial values. As the result of this run you will get html document with graphical representation of solution for IVP.
+
 ## Research
 
 ### Aims:
