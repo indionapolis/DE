@@ -1,4 +1,4 @@
-## Practicum
+## Practicum BS17-8
 ### Variant 16
 
 initial problem: <br/><a href="https://www.codecogs.com/eqnedit.php?latex=y'=2xy&space;&plus;&space;5-x^2,&space;x_0&space;=&space;0,&space;y_0&space;=&space;1,&space;X&space;=&space;3." target="_blank"><img src="https://latex.codecogs.com/gif.latex?y'=2xy&space;&plus;&space;5-x^2,&space;x_0&space;=&space;0,&space;y_0&space;=&space;1,&space;X&space;=&space;3." title="y'=2xy + 5-x^2, x_0 = 0, y_0 = 1, X = 3." /></a>
